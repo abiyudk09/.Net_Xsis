@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Logic_Quiz_Day07/1.0.0": {
+        "runtime": {
+          "Logic_Quiz_Day07.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Logic_Quiz_Day07/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
