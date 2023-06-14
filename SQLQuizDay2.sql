@@ -104,5 +104,70 @@ select * from genre
 select p.nm_produser, sum(f.pendapatan)
 from produser as p join film as f on p.kd_produser = f.produser
 where p.nm_produser ='Marvel'
-group by nm_produser
+group by p.nm_produser
 
+--2
+select nm_film, nominasi 
+from film where nominasi = 0
+
+--3
+select nm_film 
+from film where nm_film like 'p%'
+
+--4
+select nm_film 
+from film where nm_film like '%y'
+
+--5
+select nm_film 
+from film where nm_film like '%d%'
+
+--6
+select f.nm_film, a.nm_artis  
+from artis a join film f on a.kd_artis = f.artis
+
+--7
+select f.nm_film, a.negara
+from film f join artis a on f.artis = a.kd_artis
+where a.negara = 'HK'
+
+--8
+select f.nm_film, n.nm_negara
+from film f join artis a on f.artis = a.kd_artis
+join negara n on a.negara = n.kd_negara
+where n.nm_negara not like '%o%'
+
+--9
+select a.nm_artis 
+from artis a left join film f on a.kd_artis = f.artis
+where f.nm_film is null
+
+--10
+select a.nm_artis, g.nm_genre
+from film f join artis a on f.artis = a.kd_artis
+join genre g on f.genre = g.kd_genre
+where f.genre = 'G004'
+
+--11
+select a.nm_artis, g.nm_genre
+from film f join artis a on f.artis = a.kd_artis
+join genre g on f.genre = g.kd_genre
+where f.genre = 'G001'
+group by a.nm_artis, g.nm_genre
+
+--12
+select n.kd_negara, n.nm_negara, count(a.negara) as jumlah_film
+from film f join artis a on f.artis = a.kd_artis
+right join negara n on a.negara = n.kd_negara
+group by n.nm_negara, n.kd_negara
+order by n.nm_negara
+
+--13
+select f.nm_film
+from film f join produser p on f.produser = p.kd_produser
+where p.international = 'Ya'
+
+--14
+select p.nm_produser, count(f.nm_film) as jumlah_film
+from film f right join produser p on f.produser = p.kd_produser
+group by p.nm_produser
