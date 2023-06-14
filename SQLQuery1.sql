@@ -120,3 +120,5 @@ select name from mahasiswa group by name --menghilangkan duplicate
 
 --having
 select name, sum(id) as jumlah from mahasiswa group by name having sum(id) > 4 order by jumlah desc
+
+

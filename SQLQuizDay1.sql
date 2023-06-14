@@ -48,7 +48,7 @@ values
 select count(id)  [Total Pengarang] from tblPengarang
 
 --No 2
-select Kelamin, count(Kelamin) as Total
+select kelamin, count(Kelamin) as Total
 from tblPengarang group by Kelamin
 
 --No 3
@@ -71,24 +71,26 @@ select max(Gaji) as Terbesar, min(Gaji) as Terkecil
 from tblGaji
 
 --No7
-select gaji
-from tblGaji where gaji>600000
+select gaji, tblpengarang.Nama, tblPengarang.Kota
+from tblGaji join tblPengarang on tblGaji.Kd_Pengarang = tblPengarang.Kd_Pengarang where gaji>600000
 
 --no8
 select sum(Gaji) [Total Gaji]
 from tblGaji
 
 --no9
-select tblPengarang.Kota, sum(Gaji) [Total Gaji]
-from tblGaji 
-join tblPengarang on tblGaji.Kd_Pengarang = tblPengarang.Kd_Pengarang 
-group by tblPengarang.Kota
+select p.Kota, sum(Gaji) [Total Gaji]
+from tblGaji g
+join tblPengarang p on g.Kd_Pengarang = p.Kd_Pengarang 
+group by p.Kota
 
 --no10
 select * from tblPengarang where Kd_Pengarang between 'P0003' and 'P0006'
+select * from tblPengarang where Kd_Pengarang >= 'P0003' and Kd_Pengarang<= 'P0006'
 
 --no11
 select * from tblPengarang where Kota = 'yogya' or kota = 'solo' or Kota = 'magelang'
+select * from tblPengarang where kota not in ('yogya', 'solo', 'magelang')
 
 --no12
 select * from tblPengarang where not kota = 'yogya'
@@ -96,18 +98,15 @@ select * from tblPengarang where not kota = 'yogya'
 --no13A
 select * from tblPengarang
 where nama like 'A%'
-
 --13B
 select * from tblPengarang
 where nama like '%i'
-
 --13C
 select * from tblPengarang
 where nama like '__a%'
-
 --13D
 select * from tblPengarang
-where not nama like '%n'
+where nama not like '%n' and Kota like '%n%'
 
 --14
 select * from tblPengarang
@@ -118,7 +117,11 @@ select kota
 from tblPengarang
 join tblGaji on tblGaji.Kd_Pengarang = tblPengarang.Kd_Pengarang 
 where Gaji < 1000000
-group by Kota
+
+select kota, Gaji
+from tblPengarang
+left join tblGaji on tblGaji.Kd_Pengarang = tblPengarang.Kd_Pengarang 
+where Gaji is null
 
 --16
 alter table tblPengarang alter column kelamin varchar (10) not null
@@ -134,5 +137,3 @@ create view vw_Pengarang as
 select tblPengarang.Kd_Pengarang, tblPengarang.Nama, Kota, Gaji 
 from tblPengarang join
 tblGaji on tblGaji.Kd_Pengarang = tblPengarang.Kd_Pengarang 
-
-
