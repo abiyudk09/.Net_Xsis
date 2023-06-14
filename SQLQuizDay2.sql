@@ -94,6 +94,15 @@ values
 ('G005', 'Thriller'),
 ('G006', 'Fiction')
 
+select * from artis
+select * from film
+select * from produser
+select * from negara
+select * from genre
 
-
+--1
+select p.nm_produser, sum(f.pendapatan)
+from produser as p join film as f on p.kd_produser = f.produser
+where p.nm_produser ='Marvel'
+group by nm_produser
 
