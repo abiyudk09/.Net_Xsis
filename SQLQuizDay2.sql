@@ -101,10 +101,12 @@ select * from negara
 select * from genre
 
 --1
-select p.nm_produser, sum(f.pendapatan)
+select p.nm_produser, format(sum(f.pendapatan), 'N0') as Pendapatan
 from produser as p join film as f on p.kd_produser = f.produser
-where p.nm_produser ='Marvel'
+--where p.nm_produser ='Marvel'
 group by p.nm_produser
+--having p.nm_produser = 'Marvel'
+having sum(f.pendapatan) <= 3000000000
 
 --2
 select nm_film, nominasi 
@@ -114,9 +116,14 @@ from film where nominasi = 0
 select nm_film 
 from film where nm_film like 'p%'
 
+--select nm_film from film where SUBSTRING(nm_film, 1,1) = 'p' (cara lain, nah yg dlam kurung itu setelah nama kolom disertai angka index dan sebelahnya panjang dari karakter yg dicari)
+
+
 --4
 select nm_film 
 from film where nm_film like '%y'
+
+--select nm_film from film where SUBSTRING(nm_film, DATALENGTH(nm_film),1) = 'y' (cara lain)
 
 --5
 select nm_film 
@@ -146,14 +153,14 @@ where f.nm_film is null
 select a.nm_artis, g.nm_genre
 from film f join artis a on f.artis = a.kd_artis
 join genre g on f.genre = g.kd_genre
-where f.genre = 'G004'
+where g.nm_genre = 'Drama'
 
 --11
-select a.nm_artis, g.nm_genre
+select distinct a.nm_artis, g.nm_genre		
 from film f join artis a on f.artis = a.kd_artis
 join genre g on f.genre = g.kd_genre
-where f.genre = 'G001'
-group by a.nm_artis, g.nm_genre
+where g.nm_genre = 'Action'
+--group by a.nm_artis, g.nm_genre	--kalo	gamake DISTINCT
 
 --12
 select n.kd_negara, n.nm_negara, count(a.negara) as jumlah_film
@@ -170,4 +177,7 @@ where p.international = 'Ya'
 --14
 select p.nm_produser, count(f.nm_film) as jumlah_film
 from film f right join produser p on f.produser = p.kd_produser
+where SUBSTRING(nm_produser, 5,1) = 'e' --p.nm_produser like '____e%' --menampilkan nm_produsernya yang huruf ke 5 nya e
 group by p.nm_produser
+--having p.nm_produser like '____e%'
+

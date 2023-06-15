@@ -23,6 +23,21 @@ alter table mahasiswa drop column phone_number
 --alter table
 alter table mahasiswa alter column email varchar(100) not null
 
+
+exec sp_rename 'mahasiswa.emailini', 'email', 'column' -- cara ganti nama column
+
+--Cara Lain untuk mengganti nama column selain cara diatas dengan buat column baru, terus copy data dari column
+--sebelumnya dengan set namacolumnbaru = namacolumnlama lalu drop table yang ingin diganti
+
+--alter table mahasiswa add email varchar (100)
+
+--update mahasiswa 
+--set email = emailini
+
+--alter table mahasiswa drop column email
+
+select * from mahasiswa
+
 --Drop 
 --Drop Database  : drop database db_mahasiswa [nama databasenya]
 --Drop Table : drop table mahasiswa [nama tablenya]

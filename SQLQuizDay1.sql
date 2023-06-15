@@ -135,5 +135,10 @@ update tblPengarang set Alamat = 'Jl. Cendrawasih 65', Kota = 'Pekanbaru' where 
 --19
 create view vw_Pengarang as 
 select tblPengarang.Kd_Pengarang, tblPengarang.Nama, Kota, Gaji 
-from tblPengarang join
+from tblPengarang left join
 tblGaji on tblGaji.Kd_Pengarang = tblPengarang.Kd_Pengarang 
+
+select * from vw_Pengarang
+
+drop view vw_Pengarang
+
