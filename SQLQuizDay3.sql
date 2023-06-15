@@ -1,5 +1,7 @@
 create database Db__sales
 
+use Db__sales
+
 create table salesperson(
 id int primary key identity(1,1),
 Name varchar(122),
@@ -17,6 +19,8 @@ values
 ('Dan','9/11/1980',52000),
 ('Ken','9/11/1977',115000),
 ('Joe','9/11/1990',38000)
+
+
 
 create table Orders(
 ID int primary key identity(1,1),
@@ -66,9 +70,11 @@ group by s.Name
 order by Rata_Rata desc
 
 --e
-select s.Name, case
+select s.Salary, s.Name, case
 when sum(o.amount) > 1000 and count(o.salesperson_id) > 2
-then s.Salary * 0.3 end as Bonus
+then s.Salary * 0.3 end as Bonus,
+case when sum(o.amount) > 1000 and count(o.salesperson_id) > 2
+then s.salary + (s.Salary * 0.3) end as Total
 from salesperson s left join Orders o on s.id = o.SalesPerson_ID
 group by s.Name, s.Salary
 
@@ -78,9 +84,11 @@ from salesperson s  left join Orders o on s.id = o.SalesPerson_ID
 where o.Amount is null
 
 --g
-select s.Name, case
+select s.Name, s.Salary, case
 when count(o.salesperson_id) = 0
-then s.Salary -(s.Salary * 0.02) end as Potongan
+then s.Salary * 0.02 end as Potongan,
+case when count(o.salesperson_id) = 0
+then s.Salary -(s.Salary * 0.02) end as Gaji
 from salesperson s left join Orders o on s.id = o.SalesPerson_ID
 group by s.Name, s.Salary
 
