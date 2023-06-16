@@ -1,6 +1,6 @@
 ﻿// DAY 7 QUIZ LOGIC //
 
-//soal1();
+soal1();
 //soal2();
 //soal3();
 //soal4();

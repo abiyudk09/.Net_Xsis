@@ -1,7 +1,7 @@
 ﻿// DAY 5 BITCHES //
 
 //PadLeft();
-//rekursif();
+rekursif();
 //rekursif1();
 
 
@@ -90,7 +90,7 @@ static void PadLeft()
     string codeR = "";
 
     codeL = date.ToString("yy") + date.ToString("MM") + input.ToString().PadLeft(panjang, chars);
-    codeR = date.ToString("yy") + date.ToString("MM") + input.ToString().PadRight(panjang, chars);
+    codeR = date.ToString("yy") + date.ToString("MM") + input.ToString().PadRight(panjang, '0');
 
     Console.WriteLine($"Hasil dari Padleft : {codeL}");
     Console.WriteLine($"Hasil dari Padright : {codeR}");

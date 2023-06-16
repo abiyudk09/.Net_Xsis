@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\XSIS User\\Documents\\Abiyu DK FILE\\LOGIC\\logic319\\QUIZ\\QUIZ.csproj": {}
+    "C:\\Users\\user\\Documents\\AbiyuDK_319\\Bootcamp319\\QUIZ\\QUIZ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\XSIS User\\Documents\\Abiyu DK FILE\\LOGIC\\logic319\\QUIZ\\QUIZ.csproj": {
+    "C:\\Users\\user\\Documents\\AbiyuDK_319\\Bootcamp319\\QUIZ\\QUIZ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\XSIS User\\Documents\\Abiyu DK FILE\\LOGIC\\logic319\\QUIZ\\QUIZ.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\AbiyuDK_319\\Bootcamp319\\QUIZ\\QUIZ.csproj",
         "projectName": "QUIZ",
-        "projectPath": "C:\\Users\\XSIS User\\Documents\\Abiyu DK FILE\\LOGIC\\logic319\\QUIZ\\QUIZ.csproj",
-        "packagesPath": "C:\\Users\\XSIS User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\XSIS User\\Documents\\Abiyu DK FILE\\LOGIC\\logic319\\QUIZ\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\AbiyuDK_319\\Bootcamp319\\QUIZ\\QUIZ.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\AbiyuDK_319\\Bootcamp319\\QUIZ\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\XSIS User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

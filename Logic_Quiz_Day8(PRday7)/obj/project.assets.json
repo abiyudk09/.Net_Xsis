@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\XSIS User\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\XSIS User\\Documents\\Abiyu DK FILE\\LOGIC\\logic319\\Logic_Quiz_Day8(PRday7)\\Logic_Quiz_Day8(PRday7).csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\AbiyuDK_319\\Bootcamp319\\Logic_Quiz_Day8(PRday7)\\Logic_Quiz_Day8(PRday7).csproj",
       "projectName": "Logic_Quiz_Day8(PRday7)",
-      "projectPath": "C:\\Users\\XSIS User\\Documents\\Abiyu DK FILE\\LOGIC\\logic319\\Logic_Quiz_Day8(PRday7)\\Logic_Quiz_Day8(PRday7).csproj",
-      "packagesPath": "C:\\Users\\XSIS User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\XSIS User\\Documents\\Abiyu DK FILE\\LOGIC\\logic319\\Logic_Quiz_Day8(PRday7)\\obj\\",
+      "projectPath": "C:\\Users\\user\\Documents\\AbiyuDK_319\\Bootcamp319\\Logic_Quiz_Day8(PRday7)\\Logic_Quiz_Day8(PRday7).csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Documents\\AbiyuDK_319\\Bootcamp319\\Logic_Quiz_Day8(PRday7)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\XSIS User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

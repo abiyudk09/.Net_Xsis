@@ -1,6 +1,6 @@
 ﻿//DAY 1 BITCHES//
 
-//Konversi();
+Konversi();
 //itungan();
 //Modulus();
 //OpPenugasan();

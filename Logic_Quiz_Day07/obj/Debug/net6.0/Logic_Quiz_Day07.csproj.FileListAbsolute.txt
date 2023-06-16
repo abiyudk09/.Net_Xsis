@@ -13,3 +13,18 @@ C:\Users\XSIS User\Documents\Abiyu DK FILE\LOGIC\logic319\Logic_Quiz_Day07\obj\D
 C:\Users\XSIS User\Documents\Abiyu DK FILE\LOGIC\logic319\Logic_Quiz_Day07\obj\Debug\net6.0\Logic_Quiz_Day07.pdb
 C:\Users\XSIS User\Documents\Abiyu DK FILE\LOGIC\logic319\Logic_Quiz_Day07\obj\Debug\net6.0\Logic_Quiz_Day07.genruntimeconfig.cache
 C:\Users\XSIS User\Documents\Abiyu DK FILE\LOGIC\logic319\Logic_Quiz_Day07\obj\Debug\net6.0\ref\Logic_Quiz_Day07.dll
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Logic_Quiz_Day07\bin\Debug\net6.0\Logic_Quiz_Day07.exe
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Logic_Quiz_Day07\bin\Debug\net6.0\Logic_Quiz_Day07.deps.json
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Logic_Quiz_Day07\bin\Debug\net6.0\Logic_Quiz_Day07.runtimeconfig.json
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Logic_Quiz_Day07\bin\Debug\net6.0\Logic_Quiz_Day07.dll
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Logic_Quiz_Day07\bin\Debug\net6.0\Logic_Quiz_Day07.pdb
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Logic_Quiz_Day07\obj\Debug\net6.0\Logic_Quiz_Day07.csproj.AssemblyReference.cache
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Logic_Quiz_Day07\obj\Debug\net6.0\Logic_Quiz_Day07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Logic_Quiz_Day07\obj\Debug\net6.0\Logic_Quiz_Day07.AssemblyInfoInputs.cache
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Logic_Quiz_Day07\obj\Debug\net6.0\Logic_Quiz_Day07.AssemblyInfo.cs
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Logic_Quiz_Day07\obj\Debug\net6.0\Logic_Quiz_Day07.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Logic_Quiz_Day07\obj\Debug\net6.0\Logic_Quiz_Day07.dll
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Logic_Quiz_Day07\obj\Debug\net6.0\refint\Logic_Quiz_Day07.dll
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Logic_Quiz_Day07\obj\Debug\net6.0\Logic_Quiz_Day07.pdb
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Logic_Quiz_Day07\obj\Debug\net6.0\Logic_Quiz_Day07.genruntimeconfig.cache
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Logic_Quiz_Day07\obj\Debug\net6.0\ref\Logic_Quiz_Day07.dll

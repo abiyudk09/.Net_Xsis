@@ -1,7 +1,7 @@
 ﻿// DAY 9 BITCHES //
 
-//Fungsimath();
-tesgrading();
+Fungsimath();
+//tesgrading();
 
 Console.ReadKey();
 

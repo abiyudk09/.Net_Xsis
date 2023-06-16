@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logic_Quiz_Day07", "..\Logi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logic_Quiz_Day8(PRday7)", "..\Logic_Quiz_Day8(PRday7)\Logic_Quiz_Day8(PRday7).csproj", "{584307BB-9E3B-439B-AF38-98602476CCE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic09", "..\Logic09\Logic09.csproj", "{FFE4689E-31CF-4E63-942F-E37E9C1A2165}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logic09", "..\Logic09\Logic09.csproj", "{FFE4689E-31CF-4E63-942F-E37E9C1A2165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Review_Logic", "..\Review_Logic\Review_Logic.csproj", "{042ABE2E-4EF8-4834-8E96-CD6E734B50A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{FFE4689E-31CF-4E63-942F-E37E9C1A2165}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFE4689E-31CF-4E63-942F-E37E9C1A2165}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFE4689E-31CF-4E63-942F-E37E9C1A2165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042ABE2E-4EF8-4834-8E96-CD6E734B50A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042ABE2E-4EF8-4834-8E96-CD6E734B50A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042ABE2E-4EF8-4834-8E96-CD6E734B50A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042ABE2E-4EF8-4834-8E96-CD6E734B50A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Review_Logic\obj\Debug\net6.0\Review_Logic.csproj.AssemblyReference.cache
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Review_Logic\obj\Debug\net6.0\Review_Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Review_Logic\obj\Debug\net6.0\Review_Logic.AssemblyInfoInputs.cache
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Review_Logic\obj\Debug\net6.0\Review_Logic.AssemblyInfo.cs
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Review_Logic\obj\Debug\net6.0\Review_Logic.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Review_Logic\bin\Debug\net6.0\Review_Logic.exe
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Review_Logic\bin\Debug\net6.0\Review_Logic.deps.json
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Review_Logic\bin\Debug\net6.0\Review_Logic.runtimeconfig.json
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Review_Logic\bin\Debug\net6.0\Review_Logic.dll
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Review_Logic\bin\Debug\net6.0\Review_Logic.pdb
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Review_Logic\obj\Debug\net6.0\Review_Logic.dll
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Review_Logic\obj\Debug\net6.0\refint\Review_Logic.dll
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Review_Logic\obj\Debug\net6.0\Review_Logic.pdb
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Review_Logic\obj\Debug\net6.0\Review_Logic.genruntimeconfig.cache
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\Review_Logic\obj\Debug\net6.0\ref\Review_Logic.dll

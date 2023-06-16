@@ -5,7 +5,7 @@
 //tes3();
 //tes5();
 //tes6();
-//tes4();
+tes4();
 
 Console.ReadKey();
 static void tes1()

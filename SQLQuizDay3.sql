@@ -59,7 +59,7 @@ Having sum(o.Amount) > 1000
 --c
 select s.Name,DATEDIFF(YEAR, s.BOD,GETDATE()) as Umur, Salary, sum(o.Amount) as Total_Amount
 from salesperson s join Orders o on s.id = o.SalesPerson_ID
-where year(Order_Date) >= '2020'
+where year(Order_Date) >= 2020
 group by s.Name, s.BOD, S.Salary
 order by Umur 
 
@@ -70,13 +70,17 @@ group by s.Name
 order by Rata_Rata desc
 
 --e
-select s.Salary, s.Name, case
-when sum(o.amount) > 1000 and count(o.salesperson_id) > 2
+select s.Salary, s.Name, sum(o.amount) 'Total Amount', count(o.salesperson_id) [Total Order],
+case when sum(o.amount) > 1000 and count(o.salesperson_id) > 2
 then s.Salary * 0.3 end as Bonus,
 case when sum(o.amount) > 1000 and count(o.salesperson_id) > 2
-then s.salary + (s.Salary * 0.3) end as Total
+then s.salary + (s.Salary * 0.3) 
+else s.Salary end  as Total
 from salesperson s left join Orders o on s.id = o.SalesPerson_ID
 group by s.Name, s.Salary
+order by [Total Order] desc
+--having sum(o.amount) > 1000 and count(o.salesperson_id) > 2
+
 
 --f
 select s.Name
@@ -91,6 +95,7 @@ case when count(o.salesperson_id) = 0
 then s.Salary -(s.Salary * 0.02) end as Gaji
 from salesperson s left join Orders o on s.id = o.SalesPerson_ID
 group by s.Name, s.Salary
+having count(o.salesperson_id) = 0
 
 
 

@@ -6,7 +6,7 @@
 //statementNestedIF();
 //statementternary();
 //statementcase();
-//testing();
+testing();
 
 Console.ReadKey();
 
