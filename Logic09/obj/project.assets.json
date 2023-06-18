@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\acer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\AbiyuDK_319\\Bootcamp319\\Logic09\\Logic09.csproj",
+      "projectUniqueName": "E:\\Xsis\\Logic_GIthub\\.Net_Xsis\\Logic09\\Logic09.csproj",
       "projectName": "Logic09",
-      "projectPath": "C:\\Users\\user\\Documents\\AbiyuDK_319\\Bootcamp319\\Logic09\\Logic09.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\AbiyuDK_319\\Bootcamp319\\Logic09\\obj\\",
+      "projectPath": "E:\\Xsis\\Logic_GIthub\\.Net_Xsis\\Logic09\\Logic09.csproj",
+      "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+      "outputPath": "E:\\Xsis\\Logic_GIthub\\.Net_Xsis\\Logic09\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
