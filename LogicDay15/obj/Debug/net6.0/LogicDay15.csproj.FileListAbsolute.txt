@@ -1,0 +1,15 @@
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\.Net_Xsis\LogicDay15\bin\Debug\net6.0\LogicDay15.exe
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\.Net_Xsis\LogicDay15\bin\Debug\net6.0\LogicDay15.deps.json
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\.Net_Xsis\LogicDay15\bin\Debug\net6.0\LogicDay15.runtimeconfig.json
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\.Net_Xsis\LogicDay15\bin\Debug\net6.0\LogicDay15.dll
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\.Net_Xsis\LogicDay15\bin\Debug\net6.0\LogicDay15.pdb
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\.Net_Xsis\LogicDay15\obj\Debug\net6.0\LogicDay15.csproj.AssemblyReference.cache
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\.Net_Xsis\LogicDay15\obj\Debug\net6.0\LogicDay15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\.Net_Xsis\LogicDay15\obj\Debug\net6.0\LogicDay15.AssemblyInfoInputs.cache
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\.Net_Xsis\LogicDay15\obj\Debug\net6.0\LogicDay15.AssemblyInfo.cs
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\.Net_Xsis\LogicDay15\obj\Debug\net6.0\LogicDay15.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\.Net_Xsis\LogicDay15\obj\Debug\net6.0\LogicDay15.dll
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\.Net_Xsis\LogicDay15\obj\Debug\net6.0\refint\LogicDay15.dll
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\.Net_Xsis\LogicDay15\obj\Debug\net6.0\LogicDay15.pdb
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\.Net_Xsis\LogicDay15\obj\Debug\net6.0\LogicDay15.genruntimeconfig.cache
+C:\Users\user\Documents\AbiyuDK_319\Bootcamp319\.Net_Xsis\LogicDay15\obj\Debug\net6.0\ref\LogicDay15.dll

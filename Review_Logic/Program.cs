@@ -30,34 +30,34 @@ static void Review1()
 
 static void Review2()
 {
-    Console.Write("Masukan Input : ");
-    string[] input = Console.ReadLine().Split(',');
+    //Console.Write("Masukan Input : ");
+    //string[] input = Console.ReadLine().Split(',');
 
-    int angka1 = int.Parse(input[0]);
-    int angka2 = int.Parse(input[1]);
+    //int angka1 = int.Parse(input[0]);
+    //int angka2 = int.Parse(input[1]);
 
-    char[] angkachar = angka1.ToString().ToCharArray();
+    //char[] angkachar = angka1.ToString().ToCharArray();
 
-    int sum = 0;
+    //int sum = 0;
 
-    for (int i = 0; i < angka2; i++)
-    {
-        for (int j = 0; j < angkachar.Length; j++)
-        {
-            sum += int.Parse(angkachar[j].ToString());
-        }
-    }
+    //for (int i = 0; i < angka2; i++)
+    //{
+    //    for (int j = 0; j < angkachar.Length; j++)
+    //    {
+    //        sum += int.Parse(angkachar[j].ToString());
+    //    }
+    //}
 
-    char[] baru = sum.ToString().ToCharArray();
+    //char[] baru = sum.ToString().ToCharArray();
 
-    int hasil = 0;
+    //int hasil = 0;
 
-    for (int k = 0; k < baru.Length; k++)
-    {
-        hasil += int.Parse(baru[k].ToString());
-    }
+    //for (int k = 0; k < baru.Length; k++)
+    //{
+    //    hasil += int.Parse(baru[k].ToString());
+    //}
 
-    Console.WriteLine($"Hasilnya Adalah : {hasil} ");
+    //Console.WriteLine($"Hasilnya Adalah : {hasil} ");
 
 
     //cara farhi
@@ -97,31 +97,31 @@ static void Review2()
 
 
     // cara alif
-    //    Console.WriteLine("Program Membuat Rekursif Digit");
-    //    Console.Write("Masukkan angka dan jumlah perulangan (misal: 153, 3): ");
-    //    string input = Console.ReadLine();
+//    Console.WriteLine("Program Membuat Rekursif Digit");
+//    Console.Write("Masukkan angka dan jumlah perulangan (misal: 153, 3): ");
+//    string input = Console.ReadLine();
 
-    //    string[] splitInput = input.Split(',');
-    //    int number = int.Parse(splitInput[0]);
-    //    int iterations = int.Parse(splitInput[1]);
+//    string[] splitInput = input.Split(',');
+//    int number = int.Parse(splitInput[0]);
+//    int iterations = int.Parse(splitInput[1]);
 
-    //    int result = RecursiveDigitSum(number, iterations);
-    //    Console.WriteLine("Hasil penjumlahan digit: " + result);
-    //}
+//    int result = RecursiveDigitSum(number, iterations);
+//    Console.WriteLine("Hasil penjumlahan digit: " + result);
+//}
 
-    //static int RecursiveDigitSum(int number, int iterations)
-    //{
-    //    if (iterations == 0)
-    //        return number;
+//static int RecursiveDigitSum(int number, int iterations)
+//{
+//    if (iterations == 0)
+//        return number;
 
-    //    int sum = 0;
-    //    string numberString = number.ToString();
+//    int sum = 0;
+//    string numberString = number.ToString();
 
-    //    for (int i = 0; i < numberString.Length; i++)
-    //    {
-    //        sum += int.Parse(numberString[i].ToString());
-    //    }
+//    for (int i = 0; i < numberString.Length; i++)
+//    {
+//        sum += int.Parse(numberString[i].ToString());
+//    }
 
-    //    return RecursiveDigitSum(sum, iterations - 1);
+//    return RecursiveDigitSum(sum, iterations - 1);
 
 }
