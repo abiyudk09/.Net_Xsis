@@ -1,7 +1,8 @@
 ﻿// Tes Latihan //
 
 //prima();
-camelcase();
+//camelcase();
+password();
 
 Console.ReadKey();
 
@@ -10,7 +11,45 @@ static void password()
 {
     Console.WriteLine("Programm Password");
     Console.Write("Inputkan Password : ");
+    string pass = Console.ReadLine();
+
+    string numbers = "0123456789";
+    string lower_case = "abcdefghijklmnopqrstuvwxyz";
+    string upper_case = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    string special_characters = "!@#$%^&*()-+";
+
+    int result = 0;
+
+    int no = 1, lower = 1, upper = 1, schar = 1;
+
+    List<char> arr = pass.ToList();
+
+    for (int i = 0; i < arr.Count; i++)
+    {
+        if (numbers.Contains(arr[i]) && no == 1)
+        {
+            no = 0;
+        }
+        else if (lower_case.Contains(arr[i]) && lower == 1)
+        {
+            lower = 0;
+        }
+        else if (upper_case.Contains(arr[i]) && upper == 1)
+        {
+            upper = 0;
+        }
+        else if (special_characters.Contains(arr[i]) && schar == 1)
+        {
+            schar = 0;
+        }
+
+    }
+    result = Math.Max(6 - arr.Count, no + lower + upper + schar);
+
+    Console.WriteLine($"Hasil = {result}");
 }
+
+
 static void camelcase()
 {
     Console.WriteLine("Programm Camel Case");
