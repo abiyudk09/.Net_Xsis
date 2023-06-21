@@ -1,7 +1,7 @@
 ﻿// Quiz DAY 4
 
 //soal1();
-//soal2();
+soal2();
 //soal3();
 //soal4();
 //soal5();

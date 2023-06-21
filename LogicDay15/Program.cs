@@ -8,10 +8,10 @@ Console.ReadKey();
 
 
 static void password()
-{
-    Console.WriteLine("Programm Password");
-    Console.Write("Inputkan Password : ");
-    string pass = Console.ReadLine();
+    {
+        Console.WriteLine("Programm Password");
+        Console.Write("Inputkan Password : ");
+        string pass = Console.ReadLine();
 
     string numbers = "0123456789";
     string lower_case = "abcdefghijklmnopqrstuvwxyz";
@@ -26,7 +26,7 @@ static void password()
 
     for (int i = 0; i < arr.Count; i++)
     {
-        if (numbers.Contains(arr[i]) && no == 1)
+            
         {
             no = 0;
         }

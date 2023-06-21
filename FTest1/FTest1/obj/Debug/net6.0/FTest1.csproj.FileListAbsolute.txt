@@ -1,0 +1,15 @@
+C:\Users\user\Documents\AbiyuDK_319\FTest1\FTest1\bin\Debug\net6.0\FTest1.exe
+C:\Users\user\Documents\AbiyuDK_319\FTest1\FTest1\bin\Debug\net6.0\FTest1.deps.json
+C:\Users\user\Documents\AbiyuDK_319\FTest1\FTest1\bin\Debug\net6.0\FTest1.runtimeconfig.json
+C:\Users\user\Documents\AbiyuDK_319\FTest1\FTest1\bin\Debug\net6.0\FTest1.dll
+C:\Users\user\Documents\AbiyuDK_319\FTest1\FTest1\bin\Debug\net6.0\FTest1.pdb
+C:\Users\user\Documents\AbiyuDK_319\FTest1\FTest1\obj\Debug\net6.0\FTest1.csproj.AssemblyReference.cache
+C:\Users\user\Documents\AbiyuDK_319\FTest1\FTest1\obj\Debug\net6.0\FTest1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\AbiyuDK_319\FTest1\FTest1\obj\Debug\net6.0\FTest1.AssemblyInfoInputs.cache
+C:\Users\user\Documents\AbiyuDK_319\FTest1\FTest1\obj\Debug\net6.0\FTest1.AssemblyInfo.cs
+C:\Users\user\Documents\AbiyuDK_319\FTest1\FTest1\obj\Debug\net6.0\FTest1.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\AbiyuDK_319\FTest1\FTest1\obj\Debug\net6.0\FTest1.dll
+C:\Users\user\Documents\AbiyuDK_319\FTest1\FTest1\obj\Debug\net6.0\refint\FTest1.dll
+C:\Users\user\Documents\AbiyuDK_319\FTest1\FTest1\obj\Debug\net6.0\FTest1.pdb
+C:\Users\user\Documents\AbiyuDK_319\FTest1\FTest1\obj\Debug\net6.0\FTest1.genruntimeconfig.cache
+C:\Users\user\Documents\AbiyuDK_319\FTest1\FTest1\obj\Debug\net6.0\ref\FTest1.dll
